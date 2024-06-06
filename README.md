@@ -1,1 +1,1 @@
-# GeekForGeekPOTD
+# GFGproblems
