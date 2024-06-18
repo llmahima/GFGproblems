@@ -8,6 +8,7 @@ using namespace std;
 // } Driver Code Ends
 // User function Template for C++
 
+
 class Solution {
   public:
     int rectanglesInCircle(int r) {
@@ -23,7 +24,6 @@ class Solution {
        return ans;
     }
 };
-
 
 
 //{ Driver Code Starts.
