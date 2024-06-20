@@ -29,6 +29,8 @@ class GFG {
 // } Driver Code Ends
 
 
+// User function Template for Java
+
 class Solution {
     
     public static long gcd(long a, long b) {
@@ -54,6 +56,3 @@ class Solution {
         return I;
     }
 };
-
-
-
