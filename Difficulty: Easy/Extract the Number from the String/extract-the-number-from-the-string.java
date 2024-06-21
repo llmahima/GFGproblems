@@ -21,7 +21,6 @@ class GFG {
 
 // User function Template for Java
 
-
 class Solution {
     long ExtractNumber(String s) {
         // code here
