@@ -23,7 +23,6 @@ class GFG {
 
 
 // User function Template for Java
-
 class Solution {
     ArrayList<Integer> bracketNumbers(String str) {
         // code here
