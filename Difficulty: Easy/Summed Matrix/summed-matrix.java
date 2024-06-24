@@ -24,7 +24,6 @@ class GFG {
 
 // User function Template for Java
 
-
 class Solution {
     static long sumMatrix(long n, long q) {
         // code here
