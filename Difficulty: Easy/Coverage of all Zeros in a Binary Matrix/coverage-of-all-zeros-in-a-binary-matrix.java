@@ -34,7 +34,7 @@ class GFG {
 
 class Solution {
     public int findCoverage(int[][] matrix) {
-         int rows = matrix.length;
+       int rows = matrix.length;
         int col = matrix[0].length;
         int count= 0;
         for (int i = 0; i < rows; i++) {
