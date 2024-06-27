@@ -31,7 +31,7 @@ class Check_IsToepliz {
 class Solution {
     /*You are required to complete this method*/
     boolean isToeplitz(int mat[][]) {
-         int n=mat.length;
+          int n=mat.length;
         int m=mat[0].length;
         if(n<2)
             return true;
