@@ -102,9 +102,8 @@ class GfG {
 
 
 
-
 class Solution {
-    // Function to find the vertical width of a Binary Tree.
+    
     void help(int n, Node root,HashSet<Integer> h){
         if(root==null) return;
         h.add(n);
@@ -112,7 +111,7 @@ class Solution {
         help(n+1,root.right,h);
     }
     public int verticalWidth(Node root) {
-        // code here.
+       
         HashSet<Integer> h=new HashSet<>();
         help(0,root,h);
         return h.size();
