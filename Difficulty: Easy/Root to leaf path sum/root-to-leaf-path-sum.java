@@ -116,6 +116,6 @@ class Solution {
         }
         
         return hasPathSum(root.left, target - root.data) || hasPathSum(root.right, target - root.data);
-// Your code here
+
     }
 }
