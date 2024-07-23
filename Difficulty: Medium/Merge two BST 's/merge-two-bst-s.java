@@ -111,7 +111,7 @@ class Solution {
     // Function to return a list of integers denoting the node
     // values of both the BST in a sorted order.
     public List<Integer> merge(Node root1, Node root2) {
-         List<Integer> list1 = new ArrayList<>();
+        List<Integer> list1 = new ArrayList<>();
         List<Integer> list2 = new ArrayList<>();
         
         // Perform in-order traversal to get the sorted list of nodes from both BSTs
@@ -148,7 +148,7 @@ class Solution {
             }
         }
         
-       
+        // Add remaining elements from list1
         while (i < list1.size()) {
             mergedList.add(list1.get(i));
             i++;
