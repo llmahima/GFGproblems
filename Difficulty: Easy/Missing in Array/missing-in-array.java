@@ -31,23 +31,9 @@ class Solution {
     // Note that the size of the array is n-1
     int missingNumber(int n, int arr[]) {
 
-         int totalSum = n * (n + 1) / 2;
-        
-
-        int arrSum = 0;
-        for (int num : arr) {
-            arrSum += num;
-        }
-        
-       
-        return totalSum - arrSum;
-    }
-
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-        int[] arr = {1, 2, 4, 5, 6}; 
-        int n = 6; // Since the array is supposed to have elements from 1 to n
-        int missingElement = solution.missingNumber(n, arr);
-        System.out.println("The missing element is: " + missingElement);// Your Code Here
+        // Your Code Here
+Arrays.sort(arr);
+for(int i=0;i<n-1;++i) if(arr[i]!=i+1) return i+1;
+return n;
     }
 }
